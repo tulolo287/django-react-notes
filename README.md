@@ -1,1 +1,1 @@
-django-react-nptes
+django-react-notes

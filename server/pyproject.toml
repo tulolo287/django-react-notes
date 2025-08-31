@@ -1,0 +1,16 @@
+[project]
+name = "django-react-notes"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django-cors-headers>=4.7.0",
+    "django-rest-framework>=0.1.0",
+    "djangorestframework>=3.16.1",
+]
+
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["server"]
